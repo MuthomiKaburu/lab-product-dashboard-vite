@@ -1,3 +1,27 @@
 /* TODO: Style the product card container */
-
+.card{
+    width: 380px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 14px -2px #bebebe;
+    transition: 0.2s ease-in-out;
+    height: 60vh;
+    margin:20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: 0.5s;
+}
 /* TODO: Add special styling for out-of-stock products */
+.outOfStock{
+    width: 380px;
+    background: rgb(12, 2, 2);
+    border-radius: 10px;
+    box-shadow: 0px 0px 14px -2px #d60909;
+    transition: 0.2s ease-in-out;
+    height: 60vh;
+    margin:20px;
+
+}
