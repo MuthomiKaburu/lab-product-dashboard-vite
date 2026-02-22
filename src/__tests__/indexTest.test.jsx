@@ -2,7 +2,7 @@ import React from 'react'
 import '@testing-library/jest-dom'
 import { render, screen, fireEvent } from '@testing-library/react'
 import App from '../App'
-
+ 
 const sampleProducts = [
   { id: 1, name: 'Laptop', price: '$999', inStock: true },
   { id: 2, name: 'Phone', price: '$699', inStock: false },
